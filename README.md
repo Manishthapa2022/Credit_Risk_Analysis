@@ -10,7 +10,7 @@ After carrying out the analysis as mentioned above, the following observations a
 
 #### Random Over sampler
 
-![RandomOverSampler]()
+![RandomOverSampler](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/RandomOverSampler.jpg)
 
 * After carrying out the analysis using RandomOversampler algorithm, we got the balanced accuracy of 0.646. High Risk Precision and recall values are 0.01 and 0.71 and 
   Low Risk precision and recall values are 1 and 0.58.  
@@ -18,33 +18,33 @@ After carrying out the analysis as mentioned above, the following observations a
 
 #### SMOTE 
 
-![SMOTE]()
+![SMOTE](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/SMOTE.jpg)
 
 * After carrying out the analysis using SMOTE algorithm, we got the balanced accuracy of 0.659. High Risk Precision and recall values are 0.01 and 0.63 and 
   Low Risk precision and recall values are 1 and 0.68.  
 
 #### Cluster Centroids
 
-![CLusterCentroid]()
+![CLusterCentroid](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.jpg)
 
 * After carrying out the analysis using Cluster Centroids algorithm, we got the balanced accuracy of 0.544. High Risk Precision and recall values are 0.01 and 0.69 and 
   Low Risk precision and recall values are 1 and 0.4.
 
 #### SMOTEENN (Combination Sampling)
 
-![SMOTEENN]()
+![SMOTEENN](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.jpg)
 
 * After carrying out the analysis using SMOTEENN algorithm, we got the balanced accuracy of 0.666. High Risk Precision and recall values are 0.01   and 0.73 and Low     Risk precision and recall values are 1 and 0.6.
 
 #### Balanced Random Forest Classifier
 
-![BalancedRandomForest]()
+![BalancedRandomForest](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForest.jpg)
 
 * After carrying out the analysis using BalancedRandomForestClassifier algorithm, we got the balanced accuracy of 0.789. High Risk Precision and recall values are 0.03   and 0.7 and Low Risk precision and recall values are 1 and 0.87.
 
 #### Easy Ensemble Classifier
 
-![Easy Ensemble]()
+![Easy Ensemble](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/EasyEnsemble.jpg)
 
 
 * After carrying out the analysis using EasyEnsembleClassifier algorithm, we got the balanced accuracy of 0.932. High Risk Precision and recall values are 0.09   and 0.92 and Low Risk precision and recall values are 1 and 0.94.
@@ -54,7 +54,7 @@ After carrying out the analysis as mentioned above, the following observations a
 
 ## Summary
 
-![Overall Analysis](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/Overall_data_summary.png)
+![Overall Analysis]()
 
 
 
