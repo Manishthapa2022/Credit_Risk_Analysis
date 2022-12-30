@@ -46,7 +46,6 @@ After carrying out the analysis as mentioned above, the following observations a
 
 ![Easy Ensemble](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/EasyEnsemble.jpg)
 
-
 * After carrying out the analysis using EasyEnsembleClassifier algorithm, we got the balanced accuracy of 0.932. High Risk Precision and recall values are 0.09   and 0.92 and Low Risk precision and recall values are 1 and 0.94.
 
 
@@ -54,12 +53,12 @@ After carrying out the analysis as mentioned above, the following observations a
 
 ## Summary
 
-![Overall Analysis]()
+![Overall Analysis](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/Overall_data_summary.jpg)
 
 
 
 
-
+#### Recommendation
 
 With the given dataset, I would recommend to use the Easy Ensemble model, as it performs the best among the six machine learning models. It not only has a highest Balanced Accuracy score, but also the highest High Risk and Low Risk Precision, Recall and F1 scores. Although it can be seen that the High Risk Precision score (0.09) is quite low but in case of Credit Risk analysis, Recall/Sensitivity is more important as we want to ensure that no Actual High risk clients are treated as Low risk and the High Sensitivity score (0.92) ensures that this is the case. 
 
