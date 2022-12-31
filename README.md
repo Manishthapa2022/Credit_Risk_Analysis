@@ -6,7 +6,7 @@ I was tasked by Jill to carry out Credit card risk analysis using the data set p
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models that reduces bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once done, I evaluated the performance of these models and made a written recommendation on whether they should be used to predict credit risk.
 
 ## Results
-After carrying out the analysis as mentioned above, the following observations are listed:
+After carrying out the analysis as mentioned above, the following observations were made.
 
 #### Random Over sampler
 
@@ -55,14 +55,14 @@ After carrying out the analysis as mentioned above, the following observations a
 
 ![Overall Analysis](https://github.com/Manishthapa2022/Credit_Risk_Analysis/blob/main/Images/Overall_data_summary.jpg)
 
-In this project we evaluated a given dataset through six different models and came up with above analysis. The most important metrics here are the Precision, Sensitivity, and the f1 score. Although the High risk precision score for the six models was very low, it can be clearly seen that EasyEnsemble Classifier was the best performing model. When we compare the four models (i.e. RandomOverSample, SMOTE, ClusterCentroids, SMOTEENN) that resample the dataset, it can be seen that in this instance the SMOTEENN model was the best performing model with Highest accuracy acore(0.666) and overall high High and Low Risk Precision and recall numbers, although the Low Risk f1 factor for SMOTE(0.81) was slightly higher than the f1 factor for SMOTEENN(0.75).
+In this project we evaluated a given dataset through six different models and came up with above analysis. The most important metrics here are the Balanced Accuracy score, Precision, Sensitivity, and the f1 score. Although the High risk precision score for the six models was very low (eventually resulting in low f1 score), it can be clearly seen that EasyEnsemble Classifier was the best performing model. When we compare the four models (i.e. RandomOverSample, SMOTE, ClusterCentroids, SMOTEENN) that resample the dataset, it can be seen that in this instance the SMOTEENN model was the best performing model with Highest accuracy acore(0.666) and overall high High and Low Risk Precision and recall numbers, although the Low Risk f1 factor for SMOTE(0.81) was slightly higher than the f1 factor for SMOTEENN(0.75).
 Also, when SMOTEENN and BalancedRandomForest Classifier are compared, BalancedRandomForest classifier perofmred well with high overall numbers except for the High Risk Sensitivity matrics where SMOTEENN did marginally better. 
 In conclusion, for this dataset, resampling did not considerably improve the performace metrics and BalancedRandomForest and EasyEnsemble Classifiers were the best performing models overall. 
 
 
 #### Recommendation
 
-With the given dataset, I would recommend to use the Easy Ensemble model, as it performs the best among the six machine learning models. It not only has a highest Balanced Accuracy score(0.932), but also the highest High Risk and Low Risk Precision, Recall and F1 scores. Although it can be seen that the High Risk Precision score (0.09) is quite low but in case of Credit Risk analysis, Recall/Sensitivity is more important as we want to ensure that no Actual High risk clients are treated as Low risk and the High Sensitivity score (0.92) ensures that this is the case. I would also suggest increasing the estimator values and trying this model to check if the performance metrics improves. 
+With the given dataset, I would recommend to use the Easy Ensemble model, as it performs the best among the six machine learning models. It not only has a highest Balanced Accuracy score(0.932), but also the highest High Risk and Low Risk Precision, Recall and F1 scores. Although it can be seen that the High Risk Precision score (0.09) is quite low but in case of Credit Risk analysis, Recall/Sensitivity is more important as we want to ensure that no Actual High risk clients are treated as Low risk and the High Sensitivity score (0.92) ensures that this is the case. I would also suggest using higher estimator values (e.g. 200, 400, 500) and trying this model to check if the performance metrics improves. 
 
 
 
